@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "908138541244",
+    "project_id": "ormwalv8-salaj",
+    "storage_bucket": "ormwalv8-salaj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908138541244:android:6c6eb0ec3b131b422be0b9",
+        "android_client_info": {
+          "package_name": "hr.ferit.enasalaj.lv8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908138541244-91aggh1pe1b6p278897hiln0qbn1hjne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAUtlU5BfTydXgOEQOlC3ZyP_ifZ-QAiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908138541244-91aggh1pe1b6p278897hiln0qbn1hjne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908138541244:android:b5394874e3a964282be0b9",
+        "android_client_info": {
+          "package_name": "hr.ferit.enasalaj.zavrsni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908138541244-91aggh1pe1b6p278897hiln0qbn1hjne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAUtlU5BfTydXgOEQOlC3ZyP_ifZ-QAiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908138541244-91aggh1pe1b6p278897hiln0qbn1hjne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

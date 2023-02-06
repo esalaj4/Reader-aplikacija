@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/goBackButton2"
+            android:layout_width="56dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="656dp"
+            android:layout_marginEnd="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+
+        <ImageView
+            android:id="@+id/bookImageDetail"
+            android:layout_width="155dp"
+            android:layout_height="211dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bookTitleDetail"
+            android:layout_width="235dp"
+            android:layout_height="77dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/sen_bold"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/bookImageDetail"
+            app:layout_constraintTop_toTopOf="@+id/bookImageDetail" />
+
+        <TextView
+            android:id="@+id/bookAuthorDetail"
+            android:layout_width="228dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/sen"
+            android:text="TextView"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/bookImageDetail"
+            app:layout_constraintTop_toBottomOf="@+id/bookTitleDetail" />
+
+        <TextView
+            android:id="@+id/bookRatingDetail"
+            android:layout_width="225dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/sen"
+            android:text="TextView"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/bookImageDetail"
+            app:layout_constraintTop_toBottomOf="@+id/bookAuthorDetail" />
+
+        <TextView
+            android:id="@+id/bookDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sen_bold"
+            android:text="@string/bookDescription"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bookImageDetail" />
+
+        <TextView
+            android:id="@+id/bookDescriptionDetail"
+            android:layout_width="388dp"
+            android:layout_height="119dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bookDescription" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reviews_recycle_view"
+            android:layout_width="325dp"
+            android:layout_height="260dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bookDescriptionDetail" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/sen_bold"
+            android:text="@string/reviews"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/reviews_recycle_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bookDescriptionDetail"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

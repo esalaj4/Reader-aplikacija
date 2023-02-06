@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Reader</string>
+    <string name="searchButton">Search</string>
+    <string name="searchBar">Search books by title or an author</string>
+    <string name="appTitle">reader.</string>
+    <string name="review">Write a review...</string>
+    <string name="submitButton">Submit</string>
+    <string name="bookDescription">Description:</string>
+    <string name="writeReview">Write a review</string>
+    <string name="reviews">Reviews:</string>
+    <string name="reviewTitle">Review title</string>
+    <string name="slogan">Discover new books, share your thoughts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
